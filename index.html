@@ -122,9 +122,7 @@
 </div>
 </div>
 <div class="scare">
-<video id="video1" class="video" src="video.mp4" loop=""></video>
-</video>
-<video id="video2" class="video" src="petal_20230801_233451.mp4" loop=""></video>
+<video id="video" class="video" src="petal_20230801_233451.mp4" loop=""></video>
 </video>
 </div>
 <script type="text/javascript">
@@ -140,7 +138,7 @@
                 event.preventDefault();
                 if(!hasClicked) hasClicked = true;
                 overlay.hidden = true;
-                video2.play();
+                video.play();
                 videoClick();
             }
             function videoClick(event) {
